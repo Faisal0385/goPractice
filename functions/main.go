@@ -2,7 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
+func getNumber() int {
+	return 100
+}
 
-	fmt.Println("fee")
+func main() {
+	num := getNumber()
+	fmt.Println(num)
 }
